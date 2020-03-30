@@ -1,1 +1,10 @@
-.color{color: teal}
+body {
+    background-image: url(assets/interlaced.zip)
+}
+
+h1 {
+    background-color: #4aaaa5;
+    color: white;
+    width: fit-content;
+    padding: 20px;
+}
