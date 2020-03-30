@@ -1,3 +1,7 @@
+h5 {
+    display: inline-flex
+}
+
 body {
     background-image: url(../images/interlaced.png);
     margin-left: 370px;
@@ -16,8 +20,8 @@ div {
     background-color: #ffffff;
     border-color: #dddddd;
     width: 960px;
+    padding: 20px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif ;
-
 }
 
 h2 {
