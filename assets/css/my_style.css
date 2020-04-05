@@ -1,24 +1,37 @@
-.body {
+body {
     background-image: url(../images/interlaced.png);
-    margin-left: 350px;
+}
+header {
+    width: 100%;
+    background-color: #ffffff;
+    height: 100px;
 }
 
-.h1 {
+.name {
     background-color: #4aaaa5;
     color: #ffffff;
     border: #cccccc;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    width: fit-content;
     padding: 20px;
+    float: left;
+    margin-left: 20%;
+    position: relative;
+}
+
+#header {
+    margin-left: -20px;
+    margin-top: 0px; 
 }
 
 
 div {
+    margin-left: 20%;
     width: 960px;
-    padding: 20px;
+    padding:20px;
+    margin-top: 20px;
 }
 
-.div {
+.main {
     background-color: #ffffff;
     border-color: #dddddd;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif ;
@@ -28,7 +41,7 @@ h2 {
     color: #4aaaa5;
 }
 
-#img {
+#lorem {
     float: left;
     padding: 20px;
 }
@@ -38,10 +51,11 @@ p {
     font-size: 20px;
 }  
 
-.footer {
-    position: absolute;
+.bottom {
+    position: fixed;
     bottom: 0%;
     width: 100%;
+    height: 50px;
     background-color: #666666;
     border-top: 8px solid #4aaaa5;
 }
@@ -49,10 +63,27 @@ p {
 #h6 {
    color: #ffffff; 
    text-align: center;
+   padding: 15px;
 }
 
-.a {
+.link {
     color: #777777;
+    position: relative;
+    display: inline-block;
+    padding: 10px;
+    padding-top: 55px;
+}
+
+#portfolio {
+    margin-left: 14%;
+}
+
+#contact {
+    margin-left: 30%;
+}
+
+#aboutme {
+    margin-left: 55%;
 }
 
 .text {
@@ -61,6 +92,7 @@ p {
 
 .border {
     border-style: ridge;
+    border-width: 2px;
     padding: 7px;
     color: #777777;
 }
